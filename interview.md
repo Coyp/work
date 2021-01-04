@@ -1,3 +1,12 @@
+## 数据结构
+
+### 树
+
+1.平衡二叉搜索树  
+2.树的遍历
+
+### 链表
+
 ## open source
 
 ### zookeeper
@@ -53,4 +62,5 @@
 ## 算法
 
 1. 求第n大数字 堆和快排  
+  - priority_queue<int, deque<int>, greater<int>> pq;
 2. 快排
