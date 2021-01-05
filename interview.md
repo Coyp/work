@@ -62,5 +62,5 @@
 ## 算法
 
 1. 求第n大数字 堆和快排  
-  - priority_queue<int, deque<int>, greater<int>> pq;
+  - `priority_queue<int, deque<int>, greater<int>> pq;`
 2. 快排
