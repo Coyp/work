@@ -18,8 +18,14 @@ a_f = 3; // success
 
 ```c++
 json j = "xx";
+auto& a_f = j.get_ref<const json::string_t&>();
+a_f = "a"; // error a_f是 const 的引用
+
+json j = "xx";
 auto a_f = j.get_ref<const json::string_t&>();
-a_f = "a"; // success
+a_f = "a"; // success -> af并不是引用 变成了值
+
+
 
 const json j = "xx";
 auto a_f = j.get_ref<const json::string_t&>(); // ok
