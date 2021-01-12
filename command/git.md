@@ -26,6 +26,8 @@ git diff --cached
 7.放弃工作区的修改  
 git checkout <file name>
 git checkout . // 所有  
+8. 撤销 --amend
+git reset --soft HEAD@{1}  
   
 ## 组合
 
